@@ -2,41 +2,46 @@
 <html>
 
 <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>title</title>
 </head>
 
 <body>
-    <header>    <nav class="nav">
-        <a href="#aboutMe">About Me</a>
-        <a href="#mySkills">My Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav></header>
+    <header>
+        <nav class="nav">
+            <a href="#me">Home</a>
+            <a href="#aboutMe">About Me</a>
+            <a href="#mySkills">My Skills</a>
+            <a href="#myProjects">Projects</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+    </header>
 
     <hr>
-    <section id= "me"> 
-        <div>
+    <section id="me">
+        <div class="text">
             <p>Hello to</p>
-            <h1>Youssef's Port</h1>
+            <h1>Youssef's Portfolio</h1>
         </div>
-        
-        <h1>About Me</h1>
-        <p>I’m a Flutter developer with a clear mission: to craft clean, efficient, and scalable applications that users
-            love.
+        <div class="myData">
+             <div>
+            <a href=""
+                class="main-btn" target="_blank">Veiw My Resume</a>
 
-            I specialize in Dart, Object-Oriented Programming, and the Flutter framework. My workflow centers around
-            Clean Architecture and clean code principles, ensuring everything I build is maintainable and future-ready.
-
-            I bring strong experience integrating APIs, working with Firebase, and handling state management using BLoC.
-            Beyond writing code, I focus on solving problems — transforming challenges into elegant technical solutions.
-
-            I'm always looking for new opportunities to grow, collaborate, and contribute to teams that value both
-            quality and creativity in software development.</p></section>
+        </div>
+         <div class="icons">
+                <a href="https://www.linkedin.com/in/1youssef-ahmed/" id="first-icon" target="_blank"><i class="fa-brands fa-linkedin" ></i></a>
+                <a href="mailto:youssefahmedseag@gmail.com" target="_blank"><i class="fa-solid fa-square-envelope" ></i></a>
+                <a href="https://github.com/yousefa7med" target="_blank"><i class="fa-brands fa-github" ></i></a>
+            </div>
+        </div>
+       
+    </section>
     <hr>
     <section id="aboutMe">
-        <h1>About Me</h1>
+        <div>
+ <h1>About Me</h1>
         <p>I’m a Flutter developer with a clear mission: to craft clean, efficient, and scalable applications that users
             love.
 
@@ -47,13 +52,17 @@
             Beyond writing code, I focus on solving problems — transforming challenges into elegant technical solutions.
 
             I'm always looking for new opportunities to grow, collaborate, and contribute to teams that value both
-            quality and creativity in software development.</p>
+            quality and creativity in software development.
+        </p>
+
+        </div>
+       
 
     </section>
     <hr>
     <section id="mySkills">
-
-        <h1>My Skills</h1>
+<div>
+<h1>My Skills</h1>
         <ul>
             <li>
                 <h4>Coding With :</h4>
@@ -65,42 +74,65 @@
             <li>Problem Solving</li>
             <li>Teamwork</li>
         </ul>
+
+</div>
+        
     </section>
 
     <hr>
 
-    <section id="projects">
+    <section id="myProjects">
+<div>
         <h1>Projects</h1>
-        <h4>1- First Project</h4>
+
+        <div class="project">
+                  <h4>1- First Project</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem pariatur
             consectetur illum molestias a repellendus fuga reiciendis tempora qui deserunt placeat, quasi accusamus!
             Beatae officia pariatur vero aut deserunt? Perferendis!</p>
-
-        <h4>1- Second Project</h4>
+        </div>
+  
+        <div class="project">
+     <h4>2- Second Project</h4>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing
             elit. Corrupti, non. Repudiandae, molestiae. Qui nisi nost
             rum blanditiis a consectetur non dolorum temporibus, accusamus
             eum distinctio iusto, ducimus quas exercitationem officiis quae.</p>
+
+        </div>
+
+
+</div>
+
+   
     </section>
-    <section>
-        <h1>Contact Me</h1>
-
-        <form>
-            <label for="name"> Name</label>
-            <input type="text" name="name">
-            <br>
-            <br>
-            <label for="email"> Email</label>
-            <input type="text" name="email">
-<br><br>
-                        <label for="message"> Message</label>
-
-            <textarea name="message"  ></textarea>
-        </form>
-
-
-
+   <section class="contact" id="contact">
+        <h2 class="title">Let's Work Together!</h2>
+        <div class="content">
+            <div class="contact-card	">
+                <div class="link">
+                    <a href="https://www.linkedin.com/in/1omar-magdy/?locale=en_US" id="contact-icon" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/1omar-magdy/?locale=en_US" class="contact-link"
+                        target="_blank"><b>Linkedin</b></a>
+                </div>
+                <br>
+                <div class="link">
+                    <a href="mailto:omarmagdy66088@gmail.com" target="_blank" id="contact-icon"><i
+                            class="fa-solid fa-square-envelope"></i></a>
+                    <a href="mailto:omarmagdy66088@gmail.com" class="contact-link" target="_blank"><b>Email</b></a>
+                </div>
+                <br>
+                <div class="link">
+                    <a href="https://github.com/OmarMagdy00" target="_blank" id="contact-icon"><i
+                            class="fa-brands fa-github"></i></a>
+                    <a href="https://github.com/OmarMagdy00" class="contact-link" target="_blank"><b>GitHub</b></a>
+                </div>
+            </div>
+        </div>
     </section>
+
+
 </body>
 
 </html>
